@@ -1,0 +1,12 @@
+"""keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+y = dict()
+z = len(values)
+for i in range(0,z):
+    y.update({keys[i]:values[i]})
+
+print(y)"""
+keys = ['Ten', 'Twenty', 'Thirty']
+values = [10, 20, 30]
+y = dict(zip(keys,values))
+print(y)
